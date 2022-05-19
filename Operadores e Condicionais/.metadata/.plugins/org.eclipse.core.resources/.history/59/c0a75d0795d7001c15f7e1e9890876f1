@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class program {
+
+	public static void main(String[] args) {
+		
+		Scanner leitor = new Scanner (system.in);
+		
+		System.out.println("Escreva o valor primeira variavel: ");
+		double v1 = leitor.nextDouble();
+		
+		System.out.println("Escreva o valor da segunda variavel: ");
+		double v2 = leitor.nextDouble();
+		
+		System.out.println("Valor da variavel 1 é: " + v1, "Valor da variavel 2 é: " + v2);
+		
+		v1 = returnFirst(v2, v2 = v1);
+		
+		leitor.close();
+	}
+
+	private static double returnFirst(double v2, double d) {
+		return 0;
+	}
+
+}

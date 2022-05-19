@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+
+public class program {
+	public static void main(String[] args) {
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		System.out.println("Escreva a temperatura em graus celcius: ");
+		float temp = leitor.nextFloat();
+		
+		float F;
+		
+		F = (9 * C + 160) / 5;
+
+		
+			
+				
+		System.out.println("Resultado da soma é: " + rmais);
+		System.out.println("Resultado da subtração é: " + rmenos);
+		System.out.println("Resultado da multiplicação é: " + rmulti);
+		System.out.println("Resultado da divisão é: " + rdivi);
+		
+		leitor.close();
+		
+	}
+}
+

@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+
+public class program {
+	public static void main(String[] args) {
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		System.out.println("Escreva a temperatura: ");
+		double temp = leitor.nextDouble();
+
+		
+		double rmais = num1 + num2;
+		double rmenos = num1 - num2;
+		double rmulti = num1 * num2;
+		double rdivi = num1 / num2;
+		
+				
+		System.out.println("Resultado da soma é: " + rmais);
+		System.out.println("Resultado da subtração é: " + rmenos);
+		System.out.println("Resultado da multiplicação é: " + rmulti);
+		System.out.println("Resultado da divisão é: " + rdivi);
+		
+		leitor.close();
+		
+	}
+}
+

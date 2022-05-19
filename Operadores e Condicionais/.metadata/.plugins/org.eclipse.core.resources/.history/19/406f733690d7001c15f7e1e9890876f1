@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+
+public class program {
+	
+		
+	
+
+	
+	leitor.close();
+	}
+}

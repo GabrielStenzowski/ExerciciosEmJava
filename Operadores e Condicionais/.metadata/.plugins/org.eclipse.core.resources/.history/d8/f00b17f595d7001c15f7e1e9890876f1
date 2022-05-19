@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class program {
+
+	public static void main(String[] args) {
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		System.out.println("Escreva o valor primeira variavel: ");
+		float v1 = leitor.nextFloat();
+		
+		System.out.println("Escreva o valor da segunda variavel: ");
+		float v2 = leitor.nextFloat();
+		
+		System.out.println("Valor da variavel 1 é: " + v1);
+		
+		float vt;
+		
+		vt = v1;
+		v1 = v2;
+		v2 = vt;
+	
+		System.out.println("O novo valor da variavel 1 é igual a: " + v1);
+		
+		
+		leitor.close();
+	}
+
+
+}

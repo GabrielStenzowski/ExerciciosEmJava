@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class program {
+
+	public static void main(String[] args) {
+		
+		Scanner leitor = new Scanner (system.in);
+		
+		System.out.println("Escreva os valor primeira variavel: ");
+		double v1 = leitor.nextDouble();
+		
+		System.out.println("Escreva o valor da segunda variavel");
+				
+		leitor.close();
+	}
+
+}

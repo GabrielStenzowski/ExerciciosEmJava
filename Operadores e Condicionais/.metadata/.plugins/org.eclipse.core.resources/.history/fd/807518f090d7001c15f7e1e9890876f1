@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+public class program {
+	public static void main(String[] args) {
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		Int num = leitor.nextLine();
+		
+		switch (key) {
+		case value:
+			
+			break;		
+		}
+		
+		
+		System.out.println(num);
+		leitor.close();
+		
+	}
+}
