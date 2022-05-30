@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class program {
+	public static void main(String[] args) {
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		System.out.println("Quantas voltas vc deseja? ");
+		int rep = leitor.nextInt();
+		
+		double vetor1[] = new double[rep];
+		double vetor2[] = new double[rep];
+		
+		
+		leitor.close();
+		
+	}
+}

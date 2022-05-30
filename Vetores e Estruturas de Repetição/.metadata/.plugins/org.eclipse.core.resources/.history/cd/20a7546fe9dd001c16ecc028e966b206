@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class program {
+	public static void main(String[] args) {
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		int numero = new int[5];
+		
+		int media = 0;
+		
+		for (int i = 0; i < numero.length; i++) {
+			System.out.println("Escreva os numeros para o calculo da media: ");
+			numero = leitor.nextInt();			
+			media = media + numero[i];			
+		}
+		
+		media = media/5;
+		System.out.println("Sua media é: " + media);
+		
+	}
+	
+	
+}

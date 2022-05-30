@@ -1,0 +1,11 @@
+
+public class program {
+	public static void main(String[] args) {
+		
+		double vetor[] = new double[11];
+		
+		Scanner leitor = new Scanner(System.in);
+		
+	}
+
+}
